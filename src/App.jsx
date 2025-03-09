@@ -2,9 +2,10 @@
 import { useState } from 'react';
 import './App.css';
 import { LoadingScreen } from './compenents/LoadingScreen';
-import "./index.css";
 import { Navbar } from './compenents/NavBar';
 import { MobileMenu } from './compenents/MobileMenu';
+import { Home } from './compenents/sections/Home';
+import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Home />
 
       </div>
     </>
