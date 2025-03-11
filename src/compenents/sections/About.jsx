@@ -29,7 +29,7 @@ export const About = () => {
                                 <span 
                                 key={key}
                                 className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                hover:shadow-[0_2px_8px_rbga(59,130,2246,0.2)] transition ">
+                                hover:shadow-[0_2px_8px_rbga(59,130,246,0.2)] transition ">
                                 {tech}
                                 </span>
                             ))}
@@ -43,7 +43,7 @@ export const About = () => {
                                 <span 
                                 key={key}
                                 className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                hover:shadow-[0_2px_8px_rbga(59,130,2246,0.2)] transition ">
+                                hover:shadow-[0_2px_8px_rbga(59,130,246,0.2)] transition ">
                                 {tech}
                                 </span>
                             ))}
@@ -70,7 +70,7 @@ export const About = () => {
                         </div>
 
                         <div>
-                            <h4 className="font-semibold"> Fullstck Software Developer, Tech Bootcamp @ Accenture (June 2024)</h4>
+                            <h4 className="font-semibold"> Fullstack Software Developer, Tech Bootcamp @ Accenture (June 2024)</h4>
                             <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
                         </div>
                     </div>
