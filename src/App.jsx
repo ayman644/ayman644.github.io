@@ -6,6 +6,7 @@ import { Navbar } from './compenents/NavBar';
 import { MobileMenu } from './compenents/MobileMenu';
 import { Home } from './compenents/sections/Home';
 import { About } from './compenents/sections/About';
+import { Projects } from './compenents/sections/Project';
 import "./index.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Projects />
       </div>
     </>
   );
