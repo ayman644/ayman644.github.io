@@ -16,7 +16,7 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4"> 
                             Describe the web app, eiuhg iruhg weoigh ioerh rioweuht erioth weioth weith wepith 
                         </p>
-                        <div>
+                        <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js", "AWS Amplify"].map((tech, key) => (
                                 <span 
                                 key={key}
@@ -28,7 +28,7 @@ export const Projects = () => {
                         </div>
                         <div className="flex items-center gap-2 my-4">
                            
-                            <a  
+                            <a
                             href="https://github.com/ayman644/panorama"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4"> 
                             Describe the web app, eiuhg iruhg weoigh ioerh rioweuht erioth weioth weith wepith 
                         </p>
-                        <div>
+                        <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js", "AWS Amplify"].map((tech, key) => (
                                 <span 
                                 key={key}
@@ -74,7 +74,7 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4"> 
                             Describe the web app, eiuhg iruhg weoigh ioerh rioweuht erioth weioth weith wepith 
                         </p>
-                        <div>
+                        <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js", "AWS Amplify"].map((tech, key) => (
                                 <span 
                                 key={key}
@@ -103,7 +103,7 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4"> 
                             Describe the web app, eiuhg iruhg weoigh ioerh rioweuht erioth weioth weith wepith 
                         </p>
-                        <div>
+                        <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js", "AWS Amplify"].map((tech, key) => (
                                 <span 
                                 key={key}
