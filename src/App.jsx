@@ -5,6 +5,7 @@ import { LoadingScreen } from './compenents/LoadingScreen';
 import { Navbar } from './compenents/NavBar';
 import { MobileMenu } from './compenents/MobileMenu';
 import { Home } from './compenents/sections/Home';
+import { About } from './compenents/sections/About';
 import "./index.css";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
-
+        <About />
       </div>
     </>
   );
