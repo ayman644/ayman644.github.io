@@ -20,7 +20,7 @@ export const About = () => {
             
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all
                                 bg-white/5 backdrop-blur-md">
-                    <p className="text-gray-300 mb-6 text-sm text-center">
+                    <p className="text-white-300 mb-6 text-sm text-center">
                                 I'm a driven developer with a passion for full-stack development, always seeking hands-on opportunities to 
                                 sharpen my skills.
                     </p>

@@ -15,7 +15,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(40,0,43,0.2)] transition
                                         bg-white/5 backdrop-blur-md">
                             <h3 className="text-xl font-bold mb-2"> Panorama </h3>
-                            <p className="text-gray-400 mb-4 text-sm"> 
+                            <p className="text-gray-200 mb-4 text-sm"> 
                                     A web application that mitigates media bias by comparing supporting and opposing sources, then generating an objective bias score for the 
                                     original content.
                             </p>
@@ -47,7 +47,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(59,130,246,0.2)] transition
                                         bg-white/5 backdrop-blur-md">
                             <h3 className="text-xl font-bold mb-2"> Web Portfolio </h3>
-                            <p className="text-gray-400 mb-13 text-sm"> 
+                            <p className="text-gray-200 mb-13 text-sm"> 
                                 What you're looking at! 
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">

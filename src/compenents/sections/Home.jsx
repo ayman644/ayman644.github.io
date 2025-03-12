@@ -13,7 +13,7 @@ export const Home = () => {
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent leading-right">
                         Hello! I'm Ayman.
                     </h1>
-                    <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto">
+                    <p className="text-white-400 text-lg mb-4 max-w-lg mx-auto">
                         I am a student at The Australian National University studying Bachelor of Computing, majoring in Software Development.
                     </p>
                     <h1 className="inline-flex items-center gap-5 text-xl mb-6 max-w-lg mx-auto">
