@@ -2,8 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["React", "Vue", "Typescript", "TailwindCSS"]
-    const backendSkills = ["Node.js", "Python", "AWS", "MongoDB"]
+    const frontendSkills = ["JavaScript","HTML/CSS", "React", "Vue", "Typescript", "TailwindCSS", "Bootstrap"]
+    const backendSkills = ["Python", "Java", "C#","Node.js", "AWS", "MongoDB"]
 
 
     return (
@@ -18,7 +18,8 @@ export const About = () => {
                     About Me
                 </h2>
             
-                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all
+                                bg-white/5 backdrop-blur-md">
                     <p className="text-gray-300 mb-6">
                         Passionate developer with expertise in building scalable web
                         applications and creating innovative solutions.
@@ -55,35 +56,35 @@ export const About = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 ">
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-white/5 backdrop-blur-md">
                         <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <ul className="list-disc text-sm text-gray-300 space-y-2 px-6">
                             <li>
-                                <strong> Bachelor of Computing (undergoing)</strong> - Australian National University
+                                <strong> Bachelor of Computing - Software Development</strong> <br></br>Australian National University (2022-2026)
                             </li>
 
                             <li>
-                                <strong> ICT10115 - Certificate I In Information, Digital Media Technology, </strong> - High School
+                                <strong> ICT10115 - Certificate I In Information, Digital Media Technology </strong> <br></br> High School
                             </li>
                         </ul>
                     </div>
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-white/5 backdrop-blur-md">
+                        <h3 className="text-xl font-bold mb-4 "> 💼 Work Experience </h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold"> Fullstack Software Engineer Intern, Penten (July 2024 - December 2024)</h4>
-                                <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <h4 className="font-semibold text-sm"> Fullstack Software Engineer Intern - Penten (July 2024 - December 2024)</h4>
+                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold"> Fullstack Software Developer, Tech Bootcamp @ Accenture (June 2024)</h4>
-                                <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <h4 className="font-semibold text-sm"> Fullstack Software Developer, Tech Bootcamp - Accenture (June 2024)</h4>
+                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold"> Policy Officer, Department of Infrastructure (November 2022 - February 2023)</h4>
-                                <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <h4 className="font-semibold text-sm"> Policy Officer Vacationer - Department of Infrastructure (November 2022 - February 2023)</h4>
+                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
                             </div>
                         </div>
                     </div>
