@@ -67,7 +67,7 @@ export const Projects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors my-4
-                                            text-sm mt-12"> 
+                                            text-sm mt-13"> 
                                 View Project →
                                 <FaGithub size={22} />
                                 </a>

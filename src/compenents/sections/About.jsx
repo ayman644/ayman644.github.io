@@ -22,7 +22,7 @@ export const About = () => {
                                 bg-white/5 backdrop-blur-md">
                     <p className="text-gray-300 mb-6 text-sm text-center">
                                 I'm a driven developer with a passion for full-stack development, always seeking hands-on opportunities to 
-                                sharpen my skills through innovative side projects.
+                                sharpen my skills.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,7 +63,7 @@ export const About = () => {
                             <li>
                                 <strong> Bachelor of Computing - Software Development</strong> <br></br>Australian National University (2022-2026)
                             </li>
-
+                            <br></br>
                             <li>
                                 <strong> ICT10115 - Certificate I In Information, Digital Media Technology </strong> <br></br> High School
                             </li>
