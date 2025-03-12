@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true )} />}{" "}
-        <div className="relative min-h-screen relative ">
+        <div className="relative min-h-screen">
           <ParticlesBackground />
           <div 
             className={`min-h-screen relative z-10 transition-opacity duration-3000 ${
