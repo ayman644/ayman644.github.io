@@ -1,4 +1,8 @@
-import { RevealOnScroll } from "../RevealOnScroll"
+import { RevealOnScroll } from "../RevealOnScroll";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaFileDownload } from "react-icons/fa";
+
 
 export const Home = () => {
     return (
@@ -9,13 +13,40 @@ export const Home = () => {
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent leading-right">
                         Hello! I'm ayman.
                     </h1>
-                    
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto">
                         OFIhifuh wiuhwe iohsdifu asdf 
                         a seoifg aoiweh owih 
                         aw o;wth w;uioh t;wuiotghwi;aeuh ewaawogi
                         ag;awroughariughaiug iu
                     </p>
+                    <h1 className="inline-flex items-center gap-5 text-xl mb-6 max-w-lg mx-auto">
+
+                        <a 
+                            href="public/Resume_AymanShams.pdf" 
+                            download="AymanShams_Resume.pdf"
+                            className=" inline-flex items-center gap-3 border border-purple-500/50 text-blue py-2 px-5 rounded font-medium text-base transition-all duration-200 
+                            hover:translate-y-0.5 
+                            hover:shadow-[0_0_15px_rgba(59,130, 246, 0.2)] hover:bg-purple-500/10">
+                            Resume 
+                            <FaFileDownload size={20}/>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/ayman-shams"
+                            target="blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"> 
+                            <FaLinkedin size={25}/> 
+                        </a>
+
+                        <a
+                            href="mailto:ayymann.s@gmail.com"
+                            target="blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"> 
+                            <MdEmail size={28}/> 
+                        </a>
+                    </h1>
                     <div className="flex justify-center space-x-4">
                         <a href="#projects" 
                         className="bg-purple-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:translate-y-0.5 
