@@ -20,9 +20,9 @@ export const About = () => {
             
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all
                                 bg-white/5 backdrop-blur-md">
-                    <p className="text-gray-300 mb-6">
-                        Passionate developer with expertise in building scalable web
-                        applications and creating innovative solutions.
+                    <p className="text-gray-300 mb-6 text-sm text-center">
+                                I'm a driven developer with a passion for full-stack development, always seeking hands-on opportunities to 
+                                sharpen my skills through innovative side projects.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -74,17 +74,18 @@ export const About = () => {
                         <div className="space-y-4 text-gray-300">
                             <div>
                                 <h4 className="font-semibold text-sm"> Fullstack Software Engineer Intern - Penten (July 2024 - December 2024)</h4>
-                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <p className="text-sm mt-1"> Engineered full-stack solutions that boosted system efficiency and delivered engaging user experiences </p>
                             </div>
 
                             <div>
                                 <h4 className="font-semibold text-sm"> Fullstack Software Developer, Tech Bootcamp - Accenture (June 2024)</h4>
-                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <p className="text-sm mt-1">Developed a web application analysing bias in the media using OpenAI and Google Search APIs </p>
                             </div>
 
                             <div>
                                 <h4 className="font-semibold text-sm"> Policy Officer Vacationer - Department of Infrastructure (November 2022 - February 2023)</h4>
-                                <p className="text-sm">idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                                <p className="text-sm mt-1"> Served as a policy officer in the strategy team,
+                                    developing policy frameworks to enhance regional infrastructure and drive strategic growth </p>
                             </div>
                         </div>
                     </div>
