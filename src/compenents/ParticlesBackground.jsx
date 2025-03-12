@@ -65,7 +65,10 @@ const ParticlesBackground = () => {
         },
         "retina_detect": true
       });
+    } else {
+      console.error("particlesJS is not defined");
     }
+
 
     // If you want to use stats.js for debugging particle count, you can add that code here.
     // For production, you might remove it.
