@@ -62,6 +62,10 @@ export const About = () => {
                             <li>
                                 <strong> Bachelor of Computing (undergoing)</strong> - Australian National University
                             </li>
+
+                            <li>
+                                <strong> ICT10115 - Certificate I In Information, Digital Media Technology, </strong> - High School
+                            </li>
                         </ul>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -74,6 +78,11 @@ export const About = () => {
 
                             <div>
                                 <h4 className="font-semibold"> Fullstack Software Developer, Tech Bootcamp @ Accenture (June 2024)</h4>
+                                <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
+                            </div>
+
+                            <div>
+                                <h4 className="font-semibold"> Policy Officer, Department of Infrastructure (November 2022 - February 2023)</h4>
                                 <p>idfhsdkf sdkf nsdfknd fkjsdef sdf sddsf sdf </p>
                             </div>
                         </div>
