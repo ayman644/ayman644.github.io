@@ -22,7 +22,7 @@ function App() {
         <div className="relative min-h-screen">
           <ParticlesBackground />
           <div 
-            className={`min-h-screen relative z-10 transition-opacity duration-3000 ${
+            className={`min-h-screen relative z-10 transition-opacity duration-2000 ${
             isLoaded ? "opacity-100" : "opacity-0"
             } bg-transparent text-gray-100`}
           >
