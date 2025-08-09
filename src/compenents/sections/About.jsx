@@ -3,7 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const frontendSkills = ["JavaScript","HTML/CSS", "React", "Vue", "Typescript", "TailwindCSS", "Bootstrap"]
-    const backendSkills = ["Python", "Java", "C#","Node.js", "AWS", "MongoDB"]
+    const backendSkills = ["Python", "Java", "C#","Node.js", "AWS", "MongoDB", "Django"]
 
 
     return (
@@ -72,6 +72,10 @@ export const About = () => {
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-white/5 backdrop-blur-md">
                         <h3 className="text-xl font-bold mb-4 "> 💼 Work Experience </h3>
                         <div className="space-y-4 text-gray-300">
+                            <div>
+                                <h4 className="font-semibold text-sm"> Junior Software Developer - GoSource (June 2025 - Present)</h4>
+                                <p className="text-sm mt-1"> Developing full-stack functionality for web applications, enhancing performance and implementing new features to improve user experience </p>
+                            </div>
                             <div>
                                 <h4 className="font-semibold text-sm"> Fullstack Software Engineer Intern - Penten (July 2024 - December 2024)</h4>
                                 <p className="text-sm mt-1"> Engineered full-stack solutions that boosted system efficiency and delivered engaging user experiences </p>
