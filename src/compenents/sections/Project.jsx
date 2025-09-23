@@ -46,12 +46,12 @@ export const Projects = () => {
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(59,130,246,0.2)] transition
                                         bg-white/5 backdrop-blur-md">
-                            <h3 className="text-xl font-bold mb-2"> Web Portfolio </h3>
+                            <h3 className="text-xl font-bold mb-2"> Apprentice </h3>
                             <p className="text-gray-200 mb-13 text-sm"> 
-                                What you're looking at! 
+                                Apprentice is a web-based construction estimation tool that integrates with Apple’s RoomPlan API to capture real-world dimensions using iPhone LiDAR scans. After scanning, the app transfers measurements back into the estimator via deep linking, where users can calculate area and volume, select materials, estimate quantities and generate quotes.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Vue", "Tailwindcss", "JavaScript", "HTML/CSS"].map((tech, key) => (
+                                {["React", "Swift", "XCode", "Tailwindcss", "JavaScript", "HTML/CSS"].map((tech, key) => (
                                     <span 
                                     key={key}
                                     className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
@@ -63,7 +63,7 @@ export const Projects = () => {
                             <div className="flex items-center gap-2 my-4">
                             
                                 <a  
-                                href="https://github.com/ayman644/panorama"
+                                href="https://github.com/harshita280904/smart-estimator/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors my-4
@@ -75,7 +75,7 @@ export const Projects = () => {
                             
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(40,0,43,0.2)] transition
+                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(40,0,43,0.2)] transition
                                         bg-white/5 backdrop-blur-md">
                             <h3 className="text-xl font-bold mb-2"> ANU Ekta Website </h3>
                             <p className="text-gray-200 mb-4 text-sm"> 
@@ -106,6 +106,39 @@ export const Projects = () => {
                             </div>
                             
                         </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rbga(59,130,246,0.2)] transition
+                                        bg-white/5 backdrop-blur-md">
+                            <h3 className="text-xl font-bold mb-2"> Web Portfolio </h3>
+                            <p className="text-gray-200 mb-13 text-sm"> 
+                                What you're looking at! 
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React", "Vue", "Tailwindcss", "JavaScript", "HTML/CSS"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                                    hover:shadow-[0_2px_8px_rbga(40,0,43,0.2)] transition-all">
+                                    {tech}
+                                    </span>
+                                ))}
+                            </div>
+                            <div className="flex items-center gap-2 my-4">
+                            
+                                <a  
+                                href="https://github.com/ayman644/panorama"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors my-4
+                                            text-sm mt-13"> 
+                                View Project →
+                                <FaGithub size={22} />
+                                </a>
+                            </div>
+                            
+                        </div>
+
+                       
                     </div>
                 </div>
             </RevealOnScroll>
