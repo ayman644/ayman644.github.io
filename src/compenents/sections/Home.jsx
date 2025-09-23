@@ -19,7 +19,7 @@ export const Home = () => {
                     <h1 className="inline-flex items-center gap-5 text-xl mb-6 max-w-lg mx-auto">
 
                         <a 
-                            href="public\Resume_AymanShams.pdf" 
+                            href="/Resume_AymanShams.pdf" 
                             download="Resume_AymanShams"
                             className=" inline-flex items-center gap-3 border border-purple-500/50 text-blue py-2 px-5 rounded font-medium text-base transition-all duration-200 
                             hover:translate-y-0.5 
