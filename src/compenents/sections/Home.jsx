@@ -19,8 +19,8 @@ export const Home = () => {
                     <h1 className="inline-flex items-center gap-5 text-xl mb-6 max-w-lg mx-auto">
 
                         <a 
-                            href="/Resume_AymanShams.pdf" 
-                            download="Resume_AymanShams"
+                            href="/AymanShams_Resume.pdf" 
+                            download="AymanShams_Resume"
                             className=" inline-flex items-center gap-3 border border-purple-500/50 text-blue py-2 px-5 rounded font-medium text-base transition-all duration-200 
                             hover:translate-y-0.5 
                             hover:shadow-[0_0_15px_rgba(59,130, 246, 0.2)] hover:bg-purple-500/10
